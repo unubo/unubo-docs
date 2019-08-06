@@ -1,2 +1,2 @@
-# unubo-docs
-Unubo documentation
+# unubo-cloud-docs
+Unubo Cloud Documentation

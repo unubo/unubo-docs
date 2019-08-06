@@ -1,0 +1,112 @@
+/* your custom css */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.8rem;
+  overflow-x: hidden;
+}
+
+.fixedHeaderContainer {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.navigationSlider .slidingNav ul li a {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+}
+
+.navigationSlider .slidingNav ul li a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+  color: #2165f5;
+}
+
+.navigationWrapper {
+  margin-top: 8px;
+}
+
+.singleRowMobileNav.navPusher {
+  padding-top: 65px;
+}
+
+.docsNavContainer .toc .navBreadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hamburger-menu div {
+  height: 2px;
+  margin-bottom: 4px;
+}
+
+header {
+  height: 50px;
+}
+
+header .logo {
+  width: 130px;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: #2165f5;
+  border: none;
+  color: #fff;
+  padding: 14px 20px;
+}
+
+.button:hover {
+  background-color: #1849b1;
+}
+
+.button.docs-prev {
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+.button.docs-prev:hover {
+  background-color: #c5c5c5;
+  color: #000;
+}
+
+@media (max-width: 1023px) {
+  ul.nav-site.nav-site-internal {
+    display: none;
+  }
+
+  .docsNavContainer {
+    margin-top: -34px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
