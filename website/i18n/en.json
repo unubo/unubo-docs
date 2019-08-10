@@ -5,19 +5,6 @@
     "previous": "Previous",
     "tagline": "Cloud deployments made easy",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
-      },
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc5": {
-        "title": "Fifth Document"
-      },
       "getting-started/deploy-app": {
         "title": "Deploying an app"
       },
@@ -59,9 +46,6 @@
       "node/overview": {
         "title": "Overview",
         "sidebar_label": "Getting started with Node"
-      },
-      "ruby/overview": {
-        "title": "Overview"
       }
     },
     "links": {
