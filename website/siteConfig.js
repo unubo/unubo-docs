@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: '', // Title for your website.
+  title: 'Unubo Docs', // Title for your website.
   tagline: 'Cloud deployments made easy',
   url: 'https://unubo.com', // Your website URL
   baseUrl: '/', // Base URL for your project */

@@ -18,11 +18,47 @@
       "doc5": {
         "title": "Fifth Document"
       },
-      "getting-started/intro": {
+      "getting-started/deploy-app": {
+        "title": "Deploying an app"
+      },
+      "getting-started/deployment-history": {
+        "title": "Deployment history"
+      },
+      "getting-started/domains": {
+        "title": "Domains & SSL"
+      },
+      "getting-started/github": {
+        "title": "Connect to GitHub"
+      },
+      "getting-started/introduction": {
         "title": "Introduction"
       },
+      "getting-started/logs": {
+        "title": "Logs"
+      },
+      "getting-started/regions": {
+        "title": "Regions"
+      },
+      "getting-started/remove-app": {
+        "title": "Removing an app"
+      },
+      "getting-started/secrets": {
+        "title": "Secrets"
+      },
+      "getting-started/status-monitor": {
+        "title": "Status Monitor"
+      },
+      "node/express": {
+        "title": "Deploy Node Express app",
+        "sidebar_label": "Express"
+      },
+      "node/hapi": {
+        "title": "Deploy Node hapi app",
+        "sidebar_label": "hapi"
+      },
       "node/overview": {
-        "title": "Overview"
+        "title": "Overview",
+        "sidebar_label": "Getting started with Node"
       },
       "ruby/overview": {
         "title": "Overview"
@@ -34,8 +70,7 @@
     },
     "categories": {
       "Getting started": "Getting started",
-      "Node": "Node",
-      "Ruby": "Ruby"
+      "Node": "Node"
     }
   },
   "pages-strings": {

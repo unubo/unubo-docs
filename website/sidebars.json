@@ -1,7 +1,16 @@
 {
   "docs": {
-    "Getting started": ["getting-started/intro"],
-    "Node": ["node/overview"],
-    "Ruby": ["ruby/overview"]
+    "Getting started": [
+      "getting-started/deploy-app",
+      "getting-started/github",
+      "getting-started/regions",
+      "getting-started/domains",
+      "getting-started/status-monitor",
+      "getting-started/secrets",
+      "getting-started/logs",
+      "getting-started/deployment-history",
+      "getting-started/remove-app"
+    ],
+    "Node": ["node/express", "node/hapi"]
   }
 }

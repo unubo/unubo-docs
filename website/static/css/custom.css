@@ -7,11 +7,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 17px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   line-height: 1.8rem;
   overflow-x: hidden;
+}
+
+.headerTitleWithLogo {
+  display: none !important;
 }
 
 .fixedHeaderContainer {
@@ -46,9 +50,28 @@ body {
   padding-top: 65px;
 }
 
+.docsNavContainer {
+  border-right: 1px solid #f0f0f0;
+}
+
 .docsNavContainer .toc .navBreadcrumb {
   background-color: #fff;
   border-bottom: 1px solid #f0f0f0;
+}
+
+.navListItem {
+  position: relative;
+}
+
+.navListItem.navListItemActive ::before {
+  position: absolute;
+  left: -10px;
+  top: 11px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 16px;
+  background-color: #2165f5;
 }
 
 .hamburger-menu div {
@@ -84,6 +107,14 @@ header .logo {
 .button.docs-prev:hover {
   background-color: #c5c5c5;
   color: #000;
+}
+
+a {
+  color: #2165f5;
+}
+
+a:hover {
+  color: #143d94;
 }
 
 @media (max-width: 1023px) {

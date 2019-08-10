@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+sidebar_label: Getting started with Node
 ---
 
-This is all about Node.js.
+You can deploy a Node.js app to Unubo in a few steps.

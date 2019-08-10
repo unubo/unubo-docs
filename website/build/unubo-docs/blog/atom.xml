@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://unubo.com/blog</id>
-    <title> Blog</title>
+    <title>Unubo Docs Blog</title>
     <updated>2016-03-11T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://unubo.com/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest  news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest Unubo Docs news and events.</subtitle>
     <logo>https://unubo.com/img/logo.svg</logo>
     <rights>©2019 Unubo Inc.</rights>
     <entry>

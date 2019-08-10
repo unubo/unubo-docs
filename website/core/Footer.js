@@ -37,31 +37,14 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
-            </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('getting-started/deploy-app')}>
+              Getting Started
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
+              href="https://twitter.com/UnuboHQ"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -70,7 +53,13 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/unubo">GitHub</a>
+            <a
+              href="https://github.com/unubo"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              GitHub
+            </a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
